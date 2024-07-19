@@ -4,7 +4,8 @@ import About from '../Components/About'
 import Home from '../Components/Home'
 import Services from '../Components/Services'
 import Login from '../Components/Login'
-import Contact from '../Components/Contact'
+
+import ContactDetails from '../Components/ContactDetails'
 
 
 
@@ -16,7 +17,7 @@ const Router = () => {
             <Route path='/About' element={<About />}></Route>
             <Route path='/Service' element={<Services />}></Route>
             <Route path='/Login' element={<Login/>}></Route>
-            <Route path='/Contact' element={<Contact/>}></Route>
+            <Route path='/Contact' element={<ContactDetails/>}></Route>
             
         </Routes>
     </BrowserRouter>
